@@ -1,4 +1,4 @@
-//./vendor/ariya/phantomjs/bin/phantomjs --web-security=no anticaptcha.js 003fa7c1cd658bca6016eae7c179f012 ivanov.vladimir.v sp@rt@nec "пиджеум" "desktop" "weekly"
+//./vendor/ariya/phantomjs/bin/phantomjs --web-security=no yws.js 003fa7c1cd658bca6016eae7c179f012 ivanov.vladimir.v sp@rt@nec "пиджеум" "desktop" "weekly"
 function ajax(url, params, callback) {
     var xhr = new XMLHttpRequest();    
     xhr.open('POST', url, true);
