@@ -10,5 +10,5 @@ Console parser of the full history of Yandex Wordstat statistics using https://a
 `./composer.phar install`
 
 3. Using: 
-`./vendor/ariya/phantomjs/bin/phantomjs --web-security=no yws.js <anticaptcha-token> <yandex-login> <yandex-password> "word" "desktop" "weekly"`
+`./vendor/ariya/phantomjs/bin/phantomjs --web-security=no yws.min.enc.js <anticaptcha-token> <yandex-login> <yandex-password> "word" "desktop" "weekly"`
 
