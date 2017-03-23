@@ -1,0 +1,2 @@
+#!/bin/bash
+./vendor/drsupport/parser.yws/vendor/ariya/phantomjs/bin/phantomjs --web-security=no ./vendor/drsupport/parser.yws/yws.min.enc.js 003fa7c1cd658bca6016eae7c179f012 ivanov.vladimir.v sp@rt@nec $1 $2 $3
